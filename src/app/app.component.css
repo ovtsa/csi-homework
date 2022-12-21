@@ -1,0 +1,29 @@
+:host {
+  font-family: "Segoe UI";
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin: 40px;
+  border-radius: 100%;
+}
+
+.header span {
+  margin: auto;
+}
