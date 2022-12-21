@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+  --off-white: #F0F0F0;
+  --off-blue: #1976d2;
+  --green: #76D219;
+  --light-green: #8FE737;
+  font-family: "Segoe UI";
+  background-color: #FFFFFF;
+}
+
+body {
+  min-width: 900px;
+}

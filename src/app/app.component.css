@@ -1,29 +1,40 @@
-:host {
-  font-family: "Segoe UI";
-}
-
 .header {
   position: absolute;
+  min-width: 900px;
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #1976d2;
-  color: white;
+  background-color: var(--off-blue);
+  color: #FFFFFF;
   font-weight: 600;
   font-size: 2em;
 }
 
 .circle {
-  height: 40px;
-  width: 40px;
-  background-color: white;
+  height: 36px;
+  width: 36px;
+  background-color: #FFFFFF;
   margin: 40px;
   border-radius: 100%;
 }
 
 .header span {
   margin: auto;
+}
+
+.main {
+  margin: 60px 90px 0px 90px;
+}
+
+.data-display-container {
+  display: flex;
+  min-width: 850px;
+  justify-content: space-around;
+  /*
+  width: 60px;
+  height: 60px;
+  */
 }
